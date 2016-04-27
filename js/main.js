@@ -6,7 +6,7 @@
    HTML structures and invoke the proper JS code accordingly. Be sure
    to reference the Bootstrap documentation.)
 */
-
+var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
 // to draw a map in your `#map-container` div.
 
@@ -18,4 +18,3 @@
 // TODO: Customize that Map to show markers with popups at no fewer than 3
 // interesting locations. (You'll need to figure out the latitude/longitude for
 // these locations using a mapping tool such as Google Maps.)
-
