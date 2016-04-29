@@ -40,9 +40,6 @@ var mapLayers = {
     "Map View": drawLayer,
     "Open Street Maps": mapStuff
 }
-
-var map = L.map('map-container').setView([46.852, -121.760], 13);
-
 L.control.layers(mapLayers).addTo(map);
 satLayer.addTo(map);
 
