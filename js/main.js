@@ -17,7 +17,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 */
 var mymap = L.map('map-containerid').setView([46.852, -121.760], 13);
 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var mapStuff = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
     maxZoom: 18,
 
@@ -38,7 +38,7 @@ var drawLayer = L.tileLayer( 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.p
 var mapLayers = {
     "Satellite": satLayer,
     "Map View": drawLayer,
-    "Open Street Maps": osm
+    "Open Street Maps": mapStuff
 }
 
 var map = L.map('map-container').setView([46.852, -121.760], 13);
