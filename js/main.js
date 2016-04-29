@@ -6,6 +6,11 @@
    HTML structures and invoke the proper JS code accordingly. Be sure
    to reference the Bootstrap documentation.)
 */
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").slideToggle();
+    });
+
 
 var mymap = L.map('map-container').setView([46.852, -121.760], 13);
 
@@ -56,3 +61,4 @@ var circle = L.circle([46.852, -121.760], 50, {
 // TODO: Customize that Map to show markers with popups at no fewer than 3
 // interesting locations. (You'll need to figure out the latitude/longitude for
 // these locations using a mapping tool such as Google Maps.)
+});
