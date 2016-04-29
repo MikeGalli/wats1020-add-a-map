@@ -5,16 +5,8 @@
    your Javascript because Bootstrap will automatically recognize your
    HTML structures and invoke the proper JS code accordingly. Be sure
    to reference the Bootstrap documentation.)
-
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18,
-    id: 'your.mapbox.project.id',
-    accessToken: 'your.mapbox.public.access.token'
-}).addTo(mymap);
-
 */
+
 var mymap = L.map('map-container').setView([46.852, -121.760], 13);
 
 var mapStuff = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,17 +32,17 @@ var mapLayers = {
     "Map View": drawLayer,
     "Open Street Maps": mapStuff
 }
-L.control.layers(mapLayers).addTo(map);
-satLayer.addTo(map);
+L.control.layers(mapLayers).addTo(mymap);
+satLayer.addTo(mymap);
 
-var marker = L.marker([46.852, -121.760]).addTo(map);
+var marker = L.marker([46.852, -121.760]).addTo(mymap);
 marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
 
 var circle = L.circle([46.852, -121.760], 50, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
-}).addTo(map);
+}).addTo(mymap);
 
 
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
