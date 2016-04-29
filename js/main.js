@@ -14,9 +14,36 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'your.mapbox.public.access.token'
 }).addTo(mymap);
 
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 18, attribution: osmAttrib});
+
+var satLayer = L.tileLayer( 'http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors | Tiles Courtesy of <a href="http://www.mapquest.com/" title="MapQuest" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png" width="16" height="16">',
+    subdomains: ['otile1','otile2','otile3','otile4']
+});
+
+var drawLayer = L.tileLayer( 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors | Tiles Courtesy of <a href="http://www.mapquest.com/" title="MapQuest" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png" width="16" height="16">',
+    subdomains: ['otile1','otile2','otile3','otile4']
+});
+
+var mapLayers = {
+    "Satellite": satLayer,
+    "Map View": drawLayer,
+    "Open Street Maps": osm
+}
+
+var map = L.map('map-container').setView([46.852, -121.760], 13);
+
+L.control.layers(mapLayers).addTo(map);
+satLayer.addTo(map);
+
+var marker = L.marker([46.852, -121.760]).addTo(map);
+marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
 
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/locaties/amsterdam/">auto huren amsterdam</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(46.8799663,-121.72690940000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(46.8799663,-121.72690940000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Mount Rainier, Pierce County, WA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
 // to draw a map in your `#map-container` div.
 
