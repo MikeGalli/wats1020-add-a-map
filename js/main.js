@@ -50,7 +50,7 @@ var circle = L.circle([46.852, -121.760], 50, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
-}).addTo(mymap);
+}).addTo(map);
 
 
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
