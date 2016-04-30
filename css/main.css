@@ -6,7 +6,7 @@
 
 
 /* Carousel Styling */
-#theCarousel .slide2 {
+#theCarousel .carousel-inner .slide2 {
   font-size: 5rems;
   color: red;
 }
