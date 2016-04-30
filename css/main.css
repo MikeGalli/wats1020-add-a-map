@@ -14,6 +14,7 @@
   background-size: cover;
 }
 .slide2{
+  color: #000066;
   background-image: url('../img/carousel/Flickr_-_The_U.S._Army_-_Jump_over_Mt._Rainier.jpg');
   height: 500px;
   background-repeat: no-repeat;
@@ -70,4 +71,3 @@
 .carousel-caption p{
   font-size: 2em;
 }
-- See more at: http://www.newthinktank.com/2015/11/learn-bootstrap-one-video/#sthash.9NAuymS6.dpuf
