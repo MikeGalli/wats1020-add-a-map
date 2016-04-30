@@ -6,7 +6,9 @@
 
 
 /* Carousel Styling */
-
+.slide2 .carousel-caption {
+  color: red;
+}
 .slide1{
   background-image: url('../img/carousel/Climbers_Crossing_Crevasse_Mt._rainier.jpg');
   height: 500px;
