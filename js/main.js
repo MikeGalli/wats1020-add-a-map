@@ -7,9 +7,9 @@
    to reference the Bootstrap documentation.)
 */
 $(document).ready(function(){
-    $("button").click(function(){
-        $("p").slideToggle();
-    });
+    //$("button").click(function(){
+  //      $("p").slideToggle();
+    //});
 
 
 var mymap = L.map('map-container').setView([46.852, -121.760], 13);
