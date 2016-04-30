@@ -27,6 +27,41 @@
   background-position: center;
   background-size: cover;
 }
+.slide4{
+  background-image: url('../img/carousel/Mount_Rainier_-_Paradise_Meadow_in_July_03.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide5{
+  background-image: url('../img/carousel/Mount_Rainier_and_lake_reflection.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide6{
+  background-image: url('../img/carousel/Mount_Rainier_from_Paradise_meadow,_August_2014_-_03.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide7{
+  background-image: url('../img/carousel/Mount_Rainier_sunset_and_clouds.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide8{
+  background-image: url('../img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .carousel-caption h1{
   font-size: 5.4em;
   font-family: 'Pacifico', cursive;
