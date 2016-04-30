@@ -6,7 +6,7 @@
 
 
 /* Carousel Styling */
-.slide2 .carousel-caption {
+.carousel-inner .item .slide2 .carousel-caption {
   color: red;
 }
 .slide1{
