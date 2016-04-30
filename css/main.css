@@ -14,14 +14,14 @@
   background-size: cover;
 }
 .slide2{
-  background-image: url('/img/carousel/Flickr_-_The_U.S._Army_-_Jump_over_Mt._Rainier.jpg');
+  background-image: url('../img/carousel/Flickr_-_The_U.S._Army_-_Jump_over_Mt._Rainier.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide3{
-  background-image: url('/img/carousel/Mount_Rainier_-_Paradise_-_Dead_Horse_Creek_Trail_-_August_2014_-_01.jpg');
+  background-image: url('../img/carousel/Mount_Rainier_-_Paradise_-_Dead_Horse_Creek_Trail_-_August_2014_-_01.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
