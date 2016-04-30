@@ -5,16 +5,34 @@
 #map-container { height: 180px; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Carousel Styling */
+.slide1{
+  background-image: url('Climbers_Crossing_Crevasse_Mt._rainier.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('Flickr_-_The_U.S._Army_-_Jump_over_Mt._Rainier.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('Mount_Rainier_-_Paradise_-_Dead_Horse_Creek_Trail_-_August_2014_-_01.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+- See more at: http://www.newthinktank.com/2015/11/learn-bootstrap-one-video/#sthash.9NAuymS6.dpuf
