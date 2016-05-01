@@ -72,6 +72,12 @@
   /*padding-bottom: .4em;*/
 }
 .carousel-caption p{
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 1px;
   background-color: rgba(153, 190, 249, 0.4);
   width: 100;
   font-size: 2em;
