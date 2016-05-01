@@ -72,5 +72,6 @@
   padding-bottom: .4em;
 }
 .carousel-caption p{
+  background-color: rgba(170, 187, 97, 0.5)
   font-size: 2em;
 }
