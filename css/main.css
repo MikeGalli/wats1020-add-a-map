@@ -72,13 +72,11 @@
   /*padding-bottom: .4em;*/
 }
 .carousel-caption p{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 1px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 10px;
   background-color: rgba(153, 190, 249, 0.4);
   width: 100;
   font-size: 2em;
 }
+.carousel-indicators {
+    bottom: 2px;
+  }
