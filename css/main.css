@@ -85,7 +85,7 @@
 .flipper3 { /*part of intro*/
 	transition: 3s;
 	transform-style: preserve-3d;
-	position: -90;
+	position: relative;
 }
 /* hide back of pane during swap */
 .front3, .back3 { /*part of intro*/
@@ -112,7 +112,7 @@
 	/* 	font-family: "Arial Black" Gadget, sans-serif; */
 	height: 62px;
 	position: relative;
-	left: 10%;
+	left: 30%;
 }
 /* flip the pane when hovered */
 .both3:hover .flipper3, .both3.hover .flipper3 {
