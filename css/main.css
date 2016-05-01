@@ -66,16 +66,12 @@
   background-size: cover;
 }
 .carousel-caption h1{
-  background-color: rgba(153, 190, 249, 0.4);
+  /*background-color: rgba(153, 190, 249, 0.4); */
   font-size: 5.4em;
   font-family: 'Pacifico', cursive;
-  padding: 0;
-  margin: 0;
   /*padding-bottom: .4em;*/
 }
 .carousel-caption p{
   background-color: rgba(153, 190, 249, 0.4);
   font-size: 2em;
-  padding: 0;
-  margin: 0;
 }
