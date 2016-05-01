@@ -117,7 +117,7 @@
 /* flip the pane when hovered */
 .both3:hover .flipper3, .both3.hover .flipper3 {
 	transform: rotateY(180deg);
-	top: -100px;
+	top: 100px;
 	left: -100%;
 }
 .both3, .front3 { /*part of intro*/
