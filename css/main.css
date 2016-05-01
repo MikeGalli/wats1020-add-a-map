@@ -73,8 +73,8 @@
 }
 .carousel-caption p{
   position: absolute;
-  left: 5%;
-  right: 5%;
+  left: 0;
+  right: 0;
   bottom: 1px;
   padding-top: 20px;
   padding-bottom: 1px;
