@@ -81,7 +81,7 @@
     bottom: 2px;
   }
 
-  .thumbnail .src {
+  .imgSize {
     height: 200px;
     overflow-y: hidden;
   }
