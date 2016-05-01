@@ -85,7 +85,7 @@
 .flipper3 { /*part of intro*/
 	transition: 3s;
 	transform-style: preserve-3d;
-	position: relative;
+	position: -9;
 }
 /* hide back of pane during swap */
 .front3, .back3 { /*part of intro*/
