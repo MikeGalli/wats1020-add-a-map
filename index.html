@@ -305,13 +305,14 @@
                     http://leafletjs.com/examples/quick-start.html -->
         <div id="map-container"></div>
       </div>
-
+<!--////////////// DROPDOWN ///////////////////////////////// -->
       <div id="links">
         <h2>Links</h2>
         <p class="lead">Learn more about Mt. Rainier by visiting these websites:</p>
         <div class="container">  <!--CONTAINER DROPDOWN-->
         <div class="dropdown">   <!-- DROPDOWN-->
-          <button class="btn btn-primary dropdown-toggle btn-md" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Visit These Sites
+          <button class="btn btn-primary dropdown-toggle btn-md" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Visit These Sites
           <span class="caret"></span>
         </button>
         <ul class="doprdown-menu">
@@ -321,18 +322,47 @@
           <li><a href="http://visitrainier.com/">Mt. Rainier Tourism Page</a></li>
           <li><a href="https://content.lib.washington.edu/warnerweb/essay.html">John Muir's Ascent of Mt. Rainier</a></li>
         </ul>
-
-
         </div>  <!-- DROPDOWN-->
         </div>  <!--CONTAINER DROPDOWN-->
+      </div><br>
+<!--////////////// DROPDOWN ///////////////////////////////// -->
 
 
+<div class="container">
 
+<!-- DROP DOWN MENUS -->
+<!-- You can easily add a drop down menu with class dropdown, or dropup. Change button size with btn-lg, btn-sm, btn-xs
+ARIA stands for Accessible Rich Internet Applications and it is used to make apps more excessible for people with disabilities. aria-haspopup states that the element has a sub menu. aria-expanded defines if the sub-menu is expanded. Full list here http://www.w3.org/TR/wai-aria/states_and_properties#aria-expanded -->
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Favorite Hero
 
-      </div>
+    <!-- Display icon in button -->
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+
+    <!-- Unselectable header -->
+    <li class="dropdown-header">Marvel</li>
+    <li><a href="#">Spiderman</a></li>
+    <li><a href="#">Captain America</a></li>
+    <li><a href="#">Iron Man</a></li>
+
+    <!-- Seperates content in menu -->
+    <li role="separator" class="divider"></li>
+    <li class="dropdown-header">DC</li>
+
+    <!-- Disable menu element -->
+    <li class="disabled"><a href="#">Superman</a></li>
+    <li><a href="#">Batman</a></li>
+    <li><a href="#">Flash</a></li>
+  </ul>
+</div>
+</div><br>
+- See more at: http://www.newthinktank.com/2015/11/learn-bootstrap-one-video/#sthash.9NAuymS6.dpuf
+
 
       <hr>
-
       <footer>
         <p>Made by Jane Student in 2015. This page uses images and text from <a href="http://en.wikipedia.org/wiki/Mount_Rainier">The Wikipedia Mt. Rainier Page</a>.</p>
       </footer>
