@@ -4,11 +4,20 @@
 
 #map-container { height: 180px; }
 
-
-/* Carousel Styling */
-.carousel-inner .item .slide2 .carousel-caption {
-  color: red;
+.affix {
+    top: 0;
+    width: 100%;
 }
+
+.affix + .container-fluid {
+    padding-top: 10px;
+}
+/* Carousel Styling */
+
+.carousel-caption p {
+    padding-bottom: 0px;
+    margin: 0 0 0px;
+  }
 .slide1{
   background-image: url('../img/carousel/Climbers_Crossing_Crevasse_Mt._rainier.jpg');
   height: 400px;
