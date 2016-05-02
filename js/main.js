@@ -41,8 +41,8 @@ satLayer.addTo(mymap);
 var marker = L.marker([46.852, -121.760]).addTo(mymap);
 marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
 
-var marker2 = L.marker([46.862922, -121.774825]).addTo(mymap);
-marker2.bindPopup("<b>Here's Liberty Cap!</b><br>XXXXXXX");
+var marker2 = L.marker([46.853441, -121.789265]).addTo(mymap);
+marker2.bindPopup("<b>Let's name all the rocks!</b><br>XXXXXXX");
 
 var circle = L.circle([46.852, -121.760], 50, {
     color: 'red',
