@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-  var mymap = L.map('map-container').setView([46.852, -121.760], 13);
+  var mymap = L.map('map-container').setView([46.852, -121.760], 10);
 
   var mapStuff = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
