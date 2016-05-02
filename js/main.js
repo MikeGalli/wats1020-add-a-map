@@ -45,7 +45,7 @@ var marker2 = L.marker([46.853441, -121.789265]).addTo(mymap);
 marker2.bindPopup("<b>Let's name all the rocks!</b><br>This one's named for St Andrew");
 
 var marker3 = L.marker([46.862922, -121.774825]).addTo(mymap);
-marker3.bindPopup("<b>Liberty Cap!</b><br>XXXXXXX");
+marker3.bindPopup("<b>Liberty Cap!</b><br>Lowest of the three summits");
 
 var circle = L.circle([46.852, -121.760], 50, {
     color: 'red',
