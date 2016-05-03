@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".carousel-caption").css("size", "400px");
+  $(".carousel-caption").css("size", "900px");
 
 
   var mymap = L.map('map-container').setView([46.852, -121.760], 12);
