@@ -18,7 +18,7 @@
 .carousel-caption {
     width: 900px;
     padding-bottom: 0px;
-    margin: 0 0 0px;
+    margin: 0 0 0 0px;
   }
 .slide1{
   background-image: url('../img/carousel/Climbers_Crossing_Crevasse_Mt._rainier.jpg');
