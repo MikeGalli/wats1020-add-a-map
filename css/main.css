@@ -24,6 +24,9 @@
     padding-bottom: 0px;
     margin: 0 0 0 0px;
   }
+.slide1 p {
+  color: red;
+}
 .slide1{
   background-image: url('../img/carousel/Climbers_Crossing_Crevasse_Mt._rainier.jpg');
   height: 400px;
